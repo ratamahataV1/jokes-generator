@@ -1,10 +1,20 @@
 body {
     margin: 0;
     background: linear-gradient(to left bottom,
-    lightblue, lightpink, lightblue);
+    rgb(145, 35, 118), lightpink, rgb(127, 29, 136));
     min-height: 100vh;          /*100% of viewport height, otherwise "align-items" will not work*/
     display: flex;              /*bring everything to the center*/
     justify-content: center;    /*bring items to the center horizontally*/
     align-items: center;        /*bring items to the center vertically*/
     font-family: monospace;
+}
+
+.container {
+    background-color: rgba(255,255,255,.3); /*.3 is (30%) transparent for the alpha value, witch is going to give a glassy design*/
+    padding: 20px;
+    box-shadow: 0 6px 10px rgba(0,0,0, .3);
+    border-radius: 15px;
+    width: 85%; /*width of any screen*/
+    text-align: center;
+    color: rgb(114, 7, 100);
 }
