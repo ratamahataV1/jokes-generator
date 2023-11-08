@@ -34,3 +34,20 @@ body {
     color: rgb(80, 3, 50);
 }
 
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .6);
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.btn:hover {
+    background-color: rgba(58, 2, 50, 0.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.486);
+    transition: all 300ms ease; /*this is for "box-shadow effect"*/
+}
