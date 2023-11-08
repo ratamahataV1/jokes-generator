@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left bottom,
+    lightblue, lightpink, lightblue);
+    min-height: 100vh;          /*100% of viewport height, otherwise "align-items" will not work*/
+    display: flex;              /*bring everything to the center*/
+    justify-content: center;    /*bring items to the center horizontally*/
+    align-items: center;        /*bring items to the center vertically*/
+    font-family: monospace;
+}
